@@ -33,6 +33,7 @@ nav{
     display: flex;
     align-items: center;
     margin-bottom: 156px;
+    justify-content: space-between;
 }
 
 .open {
@@ -46,7 +47,7 @@ nav a {
 
 .user {
     width: 258px;
-    margin-left: 80px;
+    margin-left: 34px;
 }
 
 .log {
@@ -290,4 +291,10 @@ align-items: center;*/
 
 .right-col a {
     color: #72748E;
+}
+
+/* Media Quarry tablet */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Tomorrow */
 }
