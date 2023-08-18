@@ -3,7 +3,8 @@ body{
     height: 100vh;
     font-family: Lalezar;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 /* header */
@@ -52,7 +53,7 @@ nav a {
     margin-left: 17px;
 }
 
-/* start with Laptop */
+/* Start With Laptop */
 
 /* row1 */
 
@@ -248,5 +249,45 @@ align-items: center;*/
 .animation img{
     width: 497px;
     height: 373px;
-    margin-top: 140px;
+    margin-top: 230px;
+}
+
+/* Footer */
+
+.my {
+    background: url(assets/footer.png);
+    background-size: cover;
+}
+
+.columns {
+    width: 965.707px;
+    height: 366.494px;
+    display: flex;
+    align-items: center;
+    margin-left: 13px;
+}
+
+.left-col{
+    height: 46px;
+    margin-right: 44em;
+}
+
+.connection-ways {
+    margin-top: 114px;
+    display: flex;
+    gap: 44px;
+    justify-content: end;
+    width: fit-content;
+}
+
+.right-col {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    gap: 35px;
+    margin-top: 109px;
+}
+
+.right-col a {
+    color: #72748E;
 }
