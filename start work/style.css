@@ -56,9 +56,20 @@ nav a {
 
 /* row1 */
 
+/* First, I wrote for all rows: margin-left: 7em; (There are comments now)
+Then I thought to myself, is there a better way? 
+Then I realized that I can put all the rows in a container and then write for it: display: flex;
+align-items: center;*/
+
+.rows{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .row1 {
     display: flex;
-    margin-left: 7em;
+    /* margin-left: 7em; */
 }
 
 .row1 img{
@@ -108,7 +119,7 @@ nav a {
 .row2{
     display: flex;
     margin-top: 203px;
-    margin-left: 7em;
+    /* margin-left: 7em; */
     gap: 45px;
 }
 .row2 a{
@@ -138,7 +149,7 @@ nav a {
 .row3 {
     display: flex;
     margin-top: 186px;
-    margin-left: 7em;
+    /* margin-left: 7em; */
 }
 
 .row3 img{
@@ -166,7 +177,7 @@ nav a {
 
 .row4 {
     display: flex;
-    margin-left: 7em;
+    /* margin-left: 7em; */
 }
 
 .row4 img{
@@ -177,13 +188,14 @@ nav a {
 /* row6 - User Comments */
 
 .comment{
-    display: flex;
-    flex-direction: column;
-    margin-top: 186px;
-    color: #2A2D53;
+    color: var(--main-heading-color, #2A2D53);
     text-align: center;
+    /* h2 */
     font-family: Lalezar;
-    font-size: 27px;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 /* row7 - Learn With Animation */
@@ -195,17 +207,46 @@ nav a {
     flex-direction: column;
 }
 
+.animation h2{
+    color: var(--main-heading-color, #2A2D53);
+    text-align: center;
+    /* h2 */
+    font-family: Lalezar;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 .texts {
-    width: 267px;
+    width: 1017px;
     display: flex;
     gap: 26px;
     flex-wrap: wrap;
     height: 78px;
-    background-color: ;
 }
 
+.texts a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 227px;
+    height: 70px;
+    background-color: rgb(255, 255, 255, 1);
+    box-shadow: 15px 14px 24px 0px rgba(0, 0, 0, 0.08);
+    margin-left: 2px;
+    border-radius: 20px;
+}
 
 .box{
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.animation img{
+    width: 497px;
+    height: 373px;
+    margin-top: 140px;
 }
