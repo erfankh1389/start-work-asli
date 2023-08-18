@@ -1,0 +1,211 @@
+body{
+    background-color: #F4F5F7;
+    height: 100vh;
+    font-family: Lalezar;
+    display: flex;
+    justify-content: center;
+}
+
+/* header */
+
+.col-left{
+    display: flex;
+    gap: 2.125em;
+    font-size: 16px;
+    align-items: center;
+}
+
+.col-right {
+    margin-right: 20.75em;
+}
+
+.search{
+    margin-left: 86px;
+}
+
+.logo{
+    width: 130px;
+    height: 50px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    margin-bottom: 156px;
+}
+
+.open {
+    height: 8px;
+}
+
+nav a {
+    height: 20px;
+    width: 65px;
+}
+
+.user {
+    width: 258px;
+    margin-left: 80px;
+}
+
+.log {
+    margin-left: 17px;
+}
+
+/* start with Laptop */
+
+/* row1 */
+
+.row1 {
+    display: flex;
+    margin-left: 7em;
+}
+
+.row1 img{
+    width: 633px;
+    height: 575px;
+}
+
+.text {
+    width: 421px;
+    height: 280px;
+    text-align: right;
+}
+
+.text h1 {
+    font-size: 54px;
+}
+
+.text p { 
+    height: 186px;
+    color: #A8AEB9;
+    text-align: right;
+    font-family: Lalezar;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.row1-btn {
+    display: inline-flex;
+    border: none;
+    border-radius: 10px;
+    background: #4A6DFB;
+    padding: 10px 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--main-color, #F4F5F7);
+    text-align: center;
+    font-size: 24px;
+    font-family: inherit;
+}
+
+/* row2 - Cards*/
+
+.row2{
+    display: flex;
+    margin-top: 203px;
+    margin-left: 7em;
+    gap: 45px;
+}
+.row2 a{
+    width: 188px;
+    text-align: center;
+}
+
+.Math, .teacher, .developer, .development{
+    display: flex;
+    width: 188px;
+    height: 186px;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 31px 31px 42px;
+    box-shadow: 7px 7px 14px rgba(0, 0, 0, .3);
+    border-radius: 20px;
+
+}
+
+.row2 img {
+    width: 182px;
+    height: 160px;
+}
+
+/* row3 */
+
+.row3 {
+    display: flex;
+    margin-top: 186px;
+    margin-left: 7em;
+}
+
+.row3 img{
+    width: 633px;
+    height: 540px;
+}
+
+.row3-btn {
+    width: 177px;
+    height: 43px;
+    display: inline-flex;
+    border: none;
+    border-radius: 10px;
+    background: #4A6DFB;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--main-color, #F4F5F7);
+    text-align: center;
+    font-size: 24px;
+    font-family: inherit;
+}
+
+/* row4 */
+
+.row4 {
+    display: flex;
+    margin-left: 7em;
+}
+
+.row4 img{
+    width: 633px;
+    height: 540px;
+}
+
+/* row6 - User Comments */
+
+.comment{
+    display: flex;
+    flex-direction: column;
+    margin-top: 186px;
+    color: #2A2D53;
+    text-align: center;
+    font-family: Lalezar;
+    font-size: 27px;
+}
+
+/* row7 - Learn With Animation */
+
+.animation {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.texts {
+    width: 267px;
+    display: flex;
+    gap: 26px;
+    flex-wrap: wrap;
+    height: 78px;
+    background-color: ;
+}
+
+
+.box{
+    display: flex;
+    justify-content: center;
+}
